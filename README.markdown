@@ -2,7 +2,7 @@
 
 ###Installation:
 
-    npm install bing-geocoder
+    npm install simple-bing-geocoder
 
 ### Usage
 
@@ -10,7 +10,7 @@ You can pass a string representation of a location and a callback function to `g
 
 ###Example:
 
-	var geocoder = require('bing-geocoder');
+	var geocoder = require('simple-bing-geocoder');
 
 	// Geocoding
 	geocoder.geocode("350 5th Ave, New York, NY 10118", function ( err, data ) {
