@@ -1,0 +1,31 @@
+{
+  "name": "simple-bing-geocoder",
+  "description": "Node wrapper around bing's geocoder api",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Sean Hill",
+    "email": "me@seanhill.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sean-hill/simple-bing-geocoder"
+  },
+  "homepage": "https://github.com/sean-hill/simple-bing-geocoder",
+  "keywords": [
+    "bing",
+    "geocode",
+    "geocoder"
+  ],
+  "license": {
+    "type": "Apachev2",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "dependencies": {
+    "hashish": ">= 0.0.4"
+  },
+  "readmeFilename": "README.markdown",
+  "bugs": {
+    "url": "https://github.com/sean-hill/simple-bing-geocoder/issues"
+  }
+}
