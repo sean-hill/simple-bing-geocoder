@@ -23,7 +23,12 @@ function request ( options, cbk ) {
     });
 
     response.on("end", function ( argument ) {
-      result = JSON.parse( data );
+      try {
+        result = JSON.parse( data );
+      } catch ( err ) {
+        return cbk( err );
+      }
+
       return cbk( null, result );
     });
 
